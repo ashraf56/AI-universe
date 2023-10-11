@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Univarse</title>
+    <script src="https://kit.fontawesome.com/96d40fa9b2.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body >
+
+    <!-- header section  -->
+  <header>
+<section class="text-center container mt-3 ">
+<h1>AI Universe Hub</h1>
+<button type="button"  class="btn btn-danger">Sort By Date</button>
+
+</section>
+
+  </header>
+    
+<!-- main section -->
+
+<main>
+<!-- all cards -->
+<section class="container mt-5">
+  <div class="row row-cols-1 row-cols-md-3 g-4" id="card-container">
+    
+    
+    
+   
+  </div>
+
+
+</section>
+
+
+<div id="ShowALL" class="text-center mt-4  " >
+  <button type="button" id="showBtn" onclick="displayAll()" class="btn btn-danger">show all</button>
+
+</div>
+
+
+<!-- spinner -->
+<div  class="d-flex justify-content-center align-items-center mt-5 ">
+  <div id="spin" class="spinner-border" role="status">
+
+  </div>
+</div>
+
+
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade " id="AIModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog  modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="AIModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body w-100" id="AImodal-body">
+      
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</main>
+
+  <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
